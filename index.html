@@ -1,76 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-</head>
-<body>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Early Childhood</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                  <ul class="navbar-nav">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Success Story <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">about</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown link
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Bravery Moments</a>
-                        <a class="dropdown-item" href="#">Heroic Moments</a>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-        <div class="container portfolio">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="heading">				
-                            <img src= "https://source.unsplash.com/aJeH0KcFkuc/400x300">
-                        </div>
-                    </div>	
-                </div>
-                <div class="bio-info">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="bio-image">
-                                        <img src="" alt="image" />
-                                    </div>			
-                                </div>
-                            </div>	
-                        </div>
-                        <div class="col-md-6">
-                            <div class="bio-content">
-                                <h1>Hi there, I'm Makhsumbek</h1>
-                                <h6>I am a fresh web designer and I create custom web designs. I'm skilled at writing well-designed, testable and efficient code using current best practices in Web development. I'm a fast learner, hard worker and team player who is proficient in making creative and innovative web pages.</h6>
-                                <p>P.S I have no special talent, I'm just passionately curious ;)</p>
-                            </div>
-                        </div>
-                    </div>	
-                </div>
-            </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+<!-- Large button groups (default and split) -->
+<div class="btn-group">
+  <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Large button
+  </button>
+  <div class="dropdown-menu">
+    ...
+  </div>
+</div>
+<div class="btn-group">
+  <button class="btn btn-secondary btn-lg" type="button">
+    Large split button
+  </button>
+  <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu">
+    ...
+  </div>
+</div>
+
+<!-- Small button groups (default and split) -->
+<div class="btn-group">
+  <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Small button
+  </button>
+  <div class="dropdown-menu">
+    ...
+  </div>
+</div>
+<div class="btn-group">
+  <button class="btn btn-secondary btn-sm" type="button">
+    Small split button
+  </button>
+  <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu">
+    ...
+  </div>
+</div>
       
+          <div class="col-md-6">
+            <div class="bio-content">
+              <h1>Hi there, I'm Makhsumbek</h1>
+              <h6>I am a fresh web designer and I create custom web designs. I'm skilled at writing well-designed,
+                testable and efficient code using current best practices in Web development. I'm a fast learner, hard
+                worker and team player who is proficient in making creative and innovative web pages.</h6>
+              <p>P.S I have no special talent, I'm just passionately curious ;)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p>
+      Try to be very skilled at every job, little hands-on exeperience with computers and is resposible for evey task.
+      Have skills with multiple Programming Languages and always focused on every task.
+      Very fast learn and adopter to the environment and comfortable with any task. Try to be interested in everything
+      and try to understand the concept of it. </p>
+    <h2>SKills</h2>
+    <ul>
+      <li>Programming</li>
+      <li>Debugging</li>
+      <li>Understand Multiple Languages</li>
+      <li>Understanding of Cars</li>
+
+      <h2>Accomplishments </h2>
+      <li> Student of the month (during middle and high school) </li>
+      <li>Team Leader in Whataburger</li>
+      <li>High School Diploma</li>
+      <li>Care for this Earth</li>
+
+    </ul>
 
 </body>
+
 </html>
